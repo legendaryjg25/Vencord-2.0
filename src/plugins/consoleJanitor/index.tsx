@@ -1,4 +1,4 @@
-import { Plugin } from "vencord";
+import { Plugin } from "@webpack/common";
 import Settings from "./settings";
 
 export default class ConsoleJanitor extends Plugin {
