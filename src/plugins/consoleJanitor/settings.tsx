@@ -1,7 +1,7 @@
-import { React, Forms } from "vencord";
-import { useState } from "react";
+import { React, Forms } from "@webpack/common";
 
 export default function Settings({ plugin }) {
+  const { useState } = React;
   const [accountName, setAccountName] = useState(plugin.settings.accountName || "");
   const [keybind, setKeybind] = useState(plugin.settings.keybind || "Ctrl+F21");
 
